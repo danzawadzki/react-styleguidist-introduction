@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import "./App.css";
 import Logo from "./components/Logo/Logo";
+import Link from "./components/Link/Link";
 
 class App extends Component {
     render() {
@@ -11,14 +12,7 @@ class App extends Component {
                     <p>
                         Edit <code>src/App.js</code> and save to reload.
                     </p>
-                    <a
-                        className="App-link"
-                        href="https://reactjs.org"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Learn React
-                    </a>
+                    <Link href="https://reactjs.org">Learn React</Link>
                 </header>
             </div>
         );

@@ -1,9 +1,10 @@
-Project created for the purpose of medium article with an introduction to the react-styleguidist.
+Project created for the purpose of medium article with an introduction to the react-styleguidist library.
 
 ## ‍💻 Technologies & related stuff
 
 1. React
 2. react-storygudist
+3. prop-types
 
 ## ⚡ ️How to run it
 
@@ -17,6 +18,13 @@ In the project directory, you can run:
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### `npm run styleguide`
+Runs the style guide local dev server.<br>
+Open [http://localhost:3000](http://localhost:6060) to view it in the browser.
+
+### `npm run styleguide:build`
+Builds the style guide for production to the .<br>
 
 ### `npm run build`
 
