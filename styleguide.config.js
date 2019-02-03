@@ -10,26 +10,14 @@ module.exports = {
         Logo: {
             logo: {
                 color: "#fff",
+                fontWeight: 300,
                 fontSize: 25
             }
         },
         Playground: {
             preview: {
                 fontFamily: '"Helvetica"',
-                fontWeight: 300,
-                paddingLeft: 0,
-                paddingRight: 0,
-                borderWidth: [[0, 0, 1, 0]],
-                borderRadius: 0
-            }
-        },
-        Markdown: {
-            pre: {
-                border: 0,
-                background: "none"
-            },
-            code: {
-                fontSize: 14
+                fontWeight: 300
             }
         }
     },
